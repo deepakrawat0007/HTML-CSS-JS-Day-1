@@ -1,0 +1,229 @@
+body{
+    margin-left: 8%;
+}
+.navbar{
+    display:flex;
+    flex-wrap: wrap;
+}
+.navbar>.icon {
+margin-top: 12px;
+font-size: 2em;
+color: lightblue;
+margin-right: 5px;
+}
+.head{
+    display: flex;
+}
+#diff-col{
+    color: darkcyan;
+    margin-right: 20vw;
+}
+.home ,.artist,.category , .about , .btn{
+    margin-top: 13px;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 2.5vw;
+}
+.home{
+    margin-top: 16px;
+}
+.artist select , .category select , .about{
+    font-size: .8em;
+    color: gray;
+    outline-style: none;
+    border: 0;
+}
+.about{
+    margin-top: 17px;
+    font-size: 1.1em;
+    margin-right: 13vw;
+}
+.btn > button{
+    width: auto;
+    height: 5vh;
+    border: 0;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+.home:hover , .about:hover {
+    cursor: pointer;
+    border-bottom: 2px solid darkcyan;
+}
+.artist select:hover , .category select:hover{
+    cursor: pointer;
+    color: darkcyan;
+
+}
+.btn button:hover{
+    cursor: pointer;
+    background-color: cyan;
+}
+.body-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.part-1 , .part-2{
+    width: 40vw;
+    height: 70vh;
+    margin-top: 1%;
+}
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading h1{
+    font-size: 47px;
+    margin: 0;
+}
+#diff{
+    font-style: italic;
+    color: rgb(160, 224, 31);
+}
+.heading > i{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: yellow;
+}
+.img-txt-conatiner{
+    display: flex;
+    margin-top: 3%;
+}
+.image > img{
+border-radius: 5px;
+}
+.text h2 ,.text i{
+    margin:0;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.text i{
+    border: 1px solid gray;
+    padding: 3px;
+    border-radius: 10px;
+    color: gray;
+    margin-bottom: 0;
+}
+.text p{
+    color: darkgray;
+    margin: 0;
+    margin-left: 55px;
+}
+.text span{
+    display: inline-block;
+    color: gray;
+}
+.des-art{
+
+    position: relative;
+    bottom: 14%;
+    left: 55%;
+}
+.des-art i{
+    color: yellow;
+    border: 1px solid yellow;
+}
+.art{
+    position: relative;
+
+    color: darkgray;
+    left: 22%;
+}
+.para p{
+    margin: 0;
+    margin-left:30px;
+    color: black;
+    font-size: large;
+    padding: 5px;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.btns{
+    position: relative;
+    left: 37%;
+    bottom: 8%;
+}
+.btns button{
+    width: 125px;
+    outline-style: none;
+    border:0;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height:5vh;
+}
+.btns .see{
+    background-color: wheat;
+    color: black;
+}
+.see i{
+    color: yellow;
+
+}
+.foot-wrapper{
+    margin-top: 5%;
+}
+.art-cards{
+    display: flex;
+}
+.art-cards div{
+    width: 25vw;
+    margin-left: 15px;
+    height: 10vh;
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+.user-card{
+    align-content: center;
+    align-items: center;
+}
+.user-card i{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.font{
+    position: relative;
+    bottom: 15%;
+    font-size: 20px;
+    left: 1%;
+}
+.timeline{
+    position: relative;
+    bottom: 25%;
+    left: 15%;
+    color: gray;
+}
+.main-img img{
+    width: 80%;
+    margin-top: 10%;
+    height: 65vh;
+    border-radius: 5%;
+box-shadow: 10px 0 10px 10px gray;
+   
+}
+.main-img{
+    display: flex;
+}
+#icon-1 , #icon-2 , #icon-3 , #icon-4{
+    font-size: 35px;
+    position: absolute;
+    left: 90%;
+    bottom: 70%;
+color:gray;
+}
+#icon-2{
+    bottom: 60%;
+}
+#icon-3{
+    bottom: 50%;
+}
+#icon-4{
+    left: 90.8%;
+    bottom: 40%;
+}

@@ -1,0 +1,82 @@
+body{
+    background-color: lightgrey;
+
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card-wrapper > .cards{
+    width: 24vw;
+    height: 50vh;
+margin: 0   px;
+margin-bottom: 5%;
+    background-color: lightgray;
+}
+img{
+    padding: 10px;
+    padding-left: 20px;
+    position: relative;
+    z-index: 1;
+    width: 20vw;
+    height: 35vh;
+    margin-top: auto;
+}
+#desc{
+    position: relative;
+    left: 1.5vw;
+    top: 15px;
+}
+.id{
+    margin-left: 20px;
+    color: gray;
+}
+button{
+ margin: 20px;
+}
+.good , .avg , .bad{
+    position: absolute;
+z-index: 2;
+    margin: 10px;
+    margin-left: 20px;
+    width: 37px;
+    padding-left: 5px;
+    height: 20px;
+    border-radius: 2px;
+}
+.good{
+
+background-color: lightgreen;
+
+}
+.avg{
+
+background-color: yellow;
+}
+.bad{
+
+background-color: lightpink;
+}
+.cards:hover{
+    background-color: lightblue;
+    transform: rotate(-4deg);
+}
+.change{
+    background-color: lightblue;
+    transform: rotate(-4deg);
+    width: 24vw;
+    height: 50vh;
+margin: 0   px;
+margin-bottom: 5%;
+}
+.details{
+    color: gray;
+    visibility: hidden;
+    margin-left: 20px;
+}
+#mid{
+    margin-left: 8vw;
+    margin-right: 1vw;
+}
